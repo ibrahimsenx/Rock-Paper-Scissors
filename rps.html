@@ -2,12 +2,25 @@
 <html>
 <body>
 <script>
- function rock-paper-scissors(rock, paper, scissor); 
- rock = rock > paper
- s
 
-if (user_choice) = rock;
+function getComputerChoice() {
 
+let randomChoice = Math.random()
+
+if (randomChoice < 0.33) {
+  console.log("rock");
+}
+else if (randomChoice < 0.66 ) {
+  console.log("paper");
+}
+else {
+  console.log("scissors");
+}
+
+return randomChoice;
+}
+
+console.log(getComputerChoice())
 
 </script>
 </body>
