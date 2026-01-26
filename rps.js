@@ -9,7 +9,7 @@ else if (computerChoice < 0.66 ) {
   return "paper";;
 }
 else {
-  return "scissor";;
+  return "scissors";;
 }
 
 return computerChoice;
@@ -76,7 +76,7 @@ function playGame() {
   humanScore++
   }
 
-  else if (human === "paper" && computer === "scissor") {
+  else if (human === "paper" && computer === "scissors") {
   alert("You lose! Scissors beats paper");
   computerScore++
   }
